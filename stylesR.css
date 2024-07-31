@@ -267,6 +267,13 @@ a div.overX,  a:hover img.TiX {                           /*all the images after
     border-radius: 10px;
 }
 
+img[id="left"] {
+    float: left;
+}
+img[id="right"] {
+    float: right;
+}
+
 .pix:hover {
     border: 3px solid #2a177f;
 }
