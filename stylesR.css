@@ -12,7 +12,7 @@
   
 .im {
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
 }
 
 div.intro {
@@ -25,7 +25,7 @@ div.intro {
     background-color: #11113c;
     color: #fdb347;
     height: 60vh;
-    font-size: 1.2em;
+    font-size: 1.3vw;
     border-radius: 6px;
 }
 
@@ -48,8 +48,8 @@ color: #11113c;
     margin-bottom: 3em;
 }
 
-.now {
-    width: 30%;
+.now, .intro a {
+    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,7 +124,6 @@ font-weight: 800;
 }
 
 
-
   h1 {
     font-size: min(5vw, 1.2em);
   text-align: center;
@@ -152,11 +151,14 @@ h2 {
     flex-wrap: wrap;    /*The flex-wrap property determines how your flex items behave when the flex container is too small. Setting it to wrap will allow the items to wrap to the next row or column */
     flex-direction: row;
     justify-content: center; /* The justify-content property determines how the items inside a flex container are positioned along the main axis*/
+    width: 90%;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 10px auto 2px;
     padding: 20px 10px;
     gap: 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000000;
+    background-color: #82d7d7;
+    height: 130vh;
 }
 
 figcaption {
@@ -219,6 +221,7 @@ a, img.TiX {
   width: 100%;
   max-width: 460px;
   height: 410px;
+  z-index: +2;
 
 }
 
@@ -226,6 +229,8 @@ img.overX {
     width: 100%;
     max-width: 460px;
     height: 350px;
+    z-index: +2;
+
 }
 
 div.overX {
