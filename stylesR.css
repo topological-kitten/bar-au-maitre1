@@ -144,6 +144,10 @@ color: #11113c;
 font-weight: 800;
 }
 
+.text {
+    width: 40vw;
+    font-size: 20px;
+}
 
   h1 {
     font-size: min(5vw, 1.2em);
@@ -171,13 +175,12 @@ h2 {
     flex-direction: row;
     justify-content: center; /* The justify-content property determines how the items inside a flex container are positioned along the main axis*/
     width: 90%;
-    max-width: 1400px;
     margin: 10px auto 2px;
-    padding: 20px 10px;
-    gap: 40px;
+    padding-top: 2vw;
+    gap: 3vw;
     border-bottom: 2px solid #000000;
     background-color: #82d7d7;
-    height: 130vh;
+    height: 150vh;
 }
 
 figcaption {
@@ -186,37 +189,6 @@ figcaption {
     color: rgb(92, 91, 91);
 }
 
-div.emp {
-    max-width: 1400px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center; /* The justify-content property determines how the items inside a flex container are positioned along the main axis*/
-    gap: 40px;
-    padding-top: 60px;                       /* prevents overscrolling when using hyperlink  */
-    padding-bottom: 30px;
-    margin: 0 auto;
-    border-bottom: 1px solid rgb(125, 123, 123);
-}
-
-.pix {
-    width: 23vw;
-    border-radius: 10px;
-}
-
-.pix:hover {
-    border: 3px solid #2a177f;
-}
-.text {
-    width: 40vw;
-    font-size: 20px;
-}
-
-.gallery::after {         /* ::after pseudo-element creates an element that is the last child of the selected element */
-    content: "";                   /*empty element after the last image*/
-    width: 350px;
-  }
 
  
 .gallery img {
@@ -230,9 +202,9 @@ a {
 }
 
 a, img.TiX { 
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
+    width: 24vw;
+    height: 32vw;
+    object-fit: cover;
 }
 
 
@@ -272,7 +244,31 @@ a:hover div.overX {                  /*block display so that text div and image 
 a div.overX,  a:hover img.TiX {                           /*all the images after hovering*/
     display: none;
   }
-  
+
+.pix {
+    width: 23vw;
+    border-radius: 10px;
+}
+
+.pix:hover {
+    border: 3px solid #2a177f;
+}
+
+div.emp {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; /* The justify-content property determines how the items inside a flex container are positioned along the main axis*/
+    gap: 40px;
+    padding-top: 60px;                       /* prevents overscrolling when using hyperlink  */
+    padding-bottom: 30px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(125, 123, 123);
+}
+
+
 
 .txt {
     display: flex; 
