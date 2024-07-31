@@ -155,7 +155,7 @@ font-weight: 800;
 }
 
 h2 {
-    padding-top: 70px;
+    padding-top: 5vw;
     color: #2a2a7f;
   text-align: center;
 }
@@ -181,7 +181,7 @@ h2 {
     gap: 3vw;
     border-bottom: 2px solid #000000;
     background-color: #82d7d7;
-    height: 70vw;
+    height: 74vw;
 }
 
 .txt {
