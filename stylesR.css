@@ -89,7 +89,7 @@ div.intro {
     justify-content: center;
     flex-direction: column;
     margin: 1vw auto 1vw;
-    width: 70%;
+    width: 90%;
     background-color: #11113c;
     color: #fdb347;
     height: auto;
@@ -131,7 +131,9 @@ color: #11113c;
     box-shadow: #0a0a23;
 }
 
-
+.now p {
+    padding: 0.1vw;
+}
 
 .now:hover {
     border: 2px solid #2a2a7f;
@@ -285,8 +287,9 @@ div.emp {
 
 .text {
     width: 40vw;
-    font-size: 1.4vw;
+    font-size: max(1.4vw,1.4vh);
 }
+
 figcaption {
     font-size: 1vw;
     font-style: italic;
