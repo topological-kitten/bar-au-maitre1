@@ -37,7 +37,7 @@ top: 0;
   }
 
   nav {
-    width: 50%;
+    width: 60%;
     margin-right: 0;
     margin-left: auto;
   }
@@ -84,17 +84,17 @@ div.intro {
     justify-content: center;
     flex-direction: column;
     margin: 1vw auto 1vw;
-    width: 80%;
+    width: 70%;
     background-color: #11113c;
     color: #fdb347;
     height: auto;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     border-radius: 6px;
     padding-bottom: 1vw;
 }
 
 div.intro p.pp {
-    width: 70%;
+    width: 80%;
 }
 
 .intro h1 {
@@ -116,6 +116,7 @@ color: #11113c;
     width: 20vw;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     font-size: 1.3em;
     height: 10%;
