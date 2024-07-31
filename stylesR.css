@@ -5,7 +5,7 @@
 }
 
 main {
-    padding-top: max(5vw,10%);
+    padding-top: max(5vw,7%);
   }
 
 
@@ -19,14 +19,14 @@ body {
 
   .header h1 {
     margin-left: 2%;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
 }
  
 
 .header {
     display: flex;
     width: 100vw;
-    height: max(5vw,10%);
+    height: max(5vw,7%);
     flex-wrap: wrap;
     align-items: center;                     /*vertical alignement for flex*/
     background-color: #11113c;
@@ -52,7 +52,7 @@ top: 0;
 
 .header ul>li  {
     
-    font-size: 1.0vw;
+    font-size: 1.3vw;
     text-align: center;
     background-color: #2a2a40;
     width: 100%;
