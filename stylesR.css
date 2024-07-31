@@ -123,18 +123,16 @@ color: #11113c;
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: 1.3em;
+    font-size: max(1.4vw,1.4vh);
     height: 10%;
     border: 2px solid #fdb347;
     background-color: #2a2a7f;
     color: #fdb347;
     box-shadow: #0a0a23;
-}
+    padding: max(1.4vw,1.4vh)w;
 
-.now p {
-    padding: vw;
 }
-
+ 
 .now:hover {
     border: 2px solid #2a2a7f;
     background-color: #fdb347;
@@ -267,7 +265,7 @@ a div.overX,  a:hover img.TiX {                           /*all the images after
     border-radius: 10px;
 }
 
-img[id="left"] {
+div[id="left"] {
     float: left;
 }
 img[id="right"] {
@@ -330,7 +328,7 @@ div.tech img {
     background-color: #fdb347;
     padding-bottom: 0.5rem;
     margin: 0 auto 50px auto;
-    font-size: 1.2em;
+    font-size: max(1.4vw,1.4vh);
     
 }
 
@@ -343,7 +341,7 @@ div.tech img {
 .hein input {
     display: block;
     height: 2vw;
-    font-size: 1.6vw;
+    font-size: max(1.4vw,1.4vh);
     width: 50%;
     margin-right: 10%;
     margin-left: auto;
@@ -379,11 +377,12 @@ fieldset {
 form button {
     display: block;
     font-weight: 800;
+    font-size:  max(1.4vw,1.4vh);
     margin-top: 10px;
     width: max(30vw,10vh);
     margin-left: 0 ;
-  margin-right: auto;
-  height: 60px;
+    margin-right: auto;
+    height: 10vh;
 }
 
 form button:hover {
