@@ -5,7 +5,7 @@
 }
 
 main {
-    padding-top: 5vw;
+    padding-top: max(5vw,10%);
   }
 
 
@@ -26,7 +26,7 @@ body {
 .header {
     display: flex;
     width: 100vw;
-    height: 5vw;
+    height: max(5vw,10%);
     flex-wrap: wrap;
     align-items: center;                     /*vertical alignement for flex*/
     background-color: #11113c;
