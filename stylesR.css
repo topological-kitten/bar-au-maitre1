@@ -5,7 +5,7 @@
 }
 
 main {
-    padding-top: max(5vw,7%);
+    padding-top: max(5vw,5vh);
   }
 
 
@@ -26,14 +26,14 @@ body {
 .header {
     display: flex;
     width: 100vw;
-    height: max(5vw,7%);
+    height: max(5vw,5vh);
     flex-wrap: wrap;
     align-items: center;                     /*vertical alignement for flex*/
     background-color: #11113c;
     color: #fff;
     border-bottom: 0.2vw solid #fdb347;
     position: fixed;                         /*allows scrolling */
-top: 0;
+    top: 0;
   }
 
   nav {
