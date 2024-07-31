@@ -253,7 +253,8 @@ a div.overX,  a:hover img.TiX {                           /*all the images after
   }
 
 .pix {
-    width: 23vw;
+    margin-top: 3vw;
+    width: 30vw;
     border-radius: 10px;
 }
 
@@ -268,8 +269,8 @@ div.emp {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center; /* The justify-content property determines how the items inside a flex container are positioned along the main axis*/
-    gap: 40px;
-    padding-top: 60px;                       /* prevents overscrolling when using hyperlink  */
+    gap: 1vw;
+    padding-top: 5vw;                       /* prevents overscrolling when using hyperlink  */
     padding-bottom: 30px;
     margin: 0 auto;
     border-bottom: 1px solid rgb(125, 123, 123);
