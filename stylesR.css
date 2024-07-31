@@ -19,7 +19,7 @@ body {
 
   .header h1 {
     margin-left: 1%;
-    font-size: max(1.2vw,1.0vh);
+    font-size: max(1.0vw,0.9vh);
     border-bottom: 1px solid #f5f6f7;
     border-right: 1px solid #f5f6f7;
     padding: 0.4vw;
@@ -132,7 +132,7 @@ color: #11113c;
 }
 
 .now p {
-    padding: 0.1vw;
+    padding: vw;
 }
 
 .now:hover {
