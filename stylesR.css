@@ -18,7 +18,7 @@ body {
 
 
   .header h1 {
-    margin-left: 4%;
+    margin-left: 2%;
     font-size: 1.4vw;
 }
  
@@ -31,13 +31,13 @@ body {
     align-items: center;                     /*vertical alignement for flex*/
     background-color: #11113c;
     color: #fff;
-    border-bottom: 1vw solid #fdb347;
+    border-bottom: 0.2vw solid #fdb347;
     position: fixed;                         /*allows scrolling */
 top: 0;
   }
 
   nav {
-    width: 60%;
+    width: 65%;
     margin-right: 0;
     margin-left: auto;
   }
@@ -45,6 +45,7 @@ top: 0;
 .header ul {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     list-style: none; 
     height: 100%;
 }
@@ -54,7 +55,7 @@ top: 0;
     font-size: 1.0vw;
     text-align: center;
     background-color: #2a2a40;
-    width: 30vw;
+    width: 100%;
 
 }
 
@@ -330,7 +331,7 @@ div.tech img {
     height: 1.2vw;
     font-size: 1.2vw;
     width: 50%;
-    margin-right: 20vw;
+    margin-right: 10%;
     margin-left: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
