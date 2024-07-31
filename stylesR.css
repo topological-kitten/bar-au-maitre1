@@ -28,7 +28,6 @@ body {
     width: 100vw;
     height: 5vw;
     flex-wrap: wrap;
-    justify-content: space-between;                  /*horizontal alignement for flex*/
     align-items: center;                     /*vertical alignement for flex*/
     background-color: #11113c;
     color: #fff;
@@ -39,6 +38,8 @@ top: 0;
 
   nav {
     width: 50%;
+    margin-right: 0;
+    margin-left: auto;
   }
 
 .header ul {
@@ -144,10 +145,7 @@ color: #11113c;
 font-weight: 800;
 }
 
-.text {
-    width: 40vw;
-    font-size: 20px;
-}
+
 
   h1 {
     font-size: min(5vw, 1.2em);
@@ -184,11 +182,19 @@ h2 {
     height: 70vw;
 }
 
-figcaption {
-    font-size: 0.9rem;
-    font-style: italic;
-    color: rgb(92, 91, 91);
+.txt {
+    display: flex; 
+    justify-content: center;
+    margin-top: -4px;
+    color: #0a0a23;
+    height: 100%;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.3rem;
 }
+
+
+
 
 
  
@@ -269,18 +275,17 @@ div.emp {
     border-bottom: 1px solid rgb(125, 123, 123);
 }
 
-
-
-.txt {
-    display: flex; 
-    justify-content: center;
-    margin-top: -4px;
-    color: #0a0a23;
-    height: 100%;
-    align-items: center;
-    font-weight: 800;
-    font-size: 1.3rem;
+.text {
+    width: 40vw;
+    font-size: 1.4vw;
 }
+figcaption {
+    font-size: 1vw;
+    font-style: italic;
+    color: rgb(92, 91, 91);
+}
+
+
 
 
 
