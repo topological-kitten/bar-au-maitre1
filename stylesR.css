@@ -8,6 +8,16 @@ main {
     padding-top: max(5vw,5vh);
   }
 
+h1 {
+    font-size: min(5vw, 1.2em);
+  text-align: center;
+}
+
+h2 {
+    padding-top: 5vw;
+    color: #2a2a7f;
+  text-align: center;
+}
 
 body {
     margin: 0;
@@ -17,7 +27,7 @@ body {
   }
 
 
-  .header h1 {
+.header h1 {
     margin-left: 1%;
     font-size: max(1.0vw,0.9vh);
     border-bottom: 1px solid #f5f6f7;
@@ -40,7 +50,7 @@ body {
     top: 0;
   }
 
-  nav {
+nav {
     width: 65%;
     margin-right: 0;
     margin-left: auto;
@@ -71,18 +81,26 @@ body {
     background-color: #c3c3d6;
 }
 
+/* ##################################################################################### */
+/* ###################################   FRONT IMAGE ################################### */
+/* ##################################################################################### */
 
-div.im {
+div.fontimg {
     width: 100vw;
-    height: 30vh;
+    height: min(40vh,35vw);
 }
 
-.im img {
+.fontimg img {
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
+
+
+/* ##################################################################################### */
+/* ###################################   INTRO TEXT  ################################### */
+/* ##################################################################################### */
 div.intro {
     display: flex;
     align-items: center;
@@ -117,6 +135,9 @@ color: #11113c;
     margin-bottom: 3em;
 }
 
+/* ##################################################################################### */
+/* ###################################   NOW BUTTON  ################################### */
+/* ##################################################################################### */
 .now  {
     width: 20vw;
     display: flex;
@@ -141,38 +162,14 @@ color: #11113c;
 }
 
 
-  h1, h2 {
-    font-family: Verdana, sans-serif;
-  }
-
-
-
-
 .bol {
 font-weight: 800;
 }
 
 
-
-  h1 {
-    font-size: min(5vw, 1.2em);
-  text-align: center;
-}
-
-h2 {
-    padding-top: 5vw;
-    color: #2a2a7f;
-  text-align: center;
-}
-
-
-
- .blabla {
-  background-color: aqua;
-  color: red;
-  padding: 10px;
-  text-align: center;
- }
+/* ##################################################################################### */
+/* #################################   GALLERY IMAGE ################################### */
+/* ##################################################################################### */
   
   .gallery {
     display: flex;     /*Flexbox is a one-dimensional CSS layout that can control the way items are spaced out and aligned within a container. */
@@ -201,10 +198,6 @@ h2 {
 }
 
 
-
-
-
- 
 .gallery img {
     object-fit: cover;
     border-radius: 10px;
@@ -215,7 +208,7 @@ a {
     text-decoration: none;
 }
 
-a, img.TiX { 
+.gallery a, img.TiX { 
     width: 24vw;
     height: 32vw;
     object-fit: cover;
@@ -259,62 +252,68 @@ a div.overX,  a:hover img.TiX {                           /*all the images after
     display: none;
   }
 
+/* ##################################################################################### */
+/* #################################  EMPLOYEE SECT. ################################### */
+/* ##################################################################################### */
+
+section.employe {
+    display: flex;                     
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto 2vw;
+    gap: 1vw;
+    flex-basis: 0;
+
+}
+section.employe > div {
+    align-self: start;  
+}
+
+div.employe {
+    flex-basis: 0;
+
+    margin: auto;
+    padding-bottom: 4vw; 
+    margin: 0 auto 2vw;
+    border-bottom: 1px solid rgb(125, 123, 123);
+}
+
+div.employe>p {
+    font-size: max(1.4vw,1.4vh);
+}
+
 .pix {
     margin-top: 3vw;
     width: 30vw;
     border-radius: 10px;
 }
-
-div[id="left"] {
-    float: left;
-}
-img[id="right"] {
-    float: right;
-}
-
 .pix:hover {
     border: 3px solid #2a177f;
-}
-
-div.emp {
-
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center; /* The justify-content property determines how the items inside a flex container are positioned along the main axis*/
-    gap: 1vw;
-    padding-top: 5vw;                       /* prevents overscrolling when using hyperlink  */
-    padding-bottom: 30px;
-    margin: 0 auto;
-    border-bottom: 1px solid rgb(125, 123, 123);
-}
-
-.text {
-    width: 40vw;
-    font-size: max(1.4vw,1.4vh);
 }
 
 figcaption {
     font-size: 1vw;
     font-style: italic;
     color: rgb(92, 91, 91);
+    
 }
 
 
+.left {
+    float: left;
+    }
+.right {
+    float: right;
+    }
+
+.left, .right {
+    padding: min(1vw,1vh);
+}
 
 
-
-footer {
-    margin-top: 5px;
-    display: flex;
-    background-color: #2a2a40;
-    align-items: center;
-    justify-content: left ;
-    color: #d0d0d5;
-    height: 8em;
-    padding-left: 20px;
-  }
+/* ##################################################################################### */
+/* ################################  ESPRESSO MACHINE ################################## */
+/* ##################################################################################### */
 
  
 div.tech img {
@@ -339,6 +338,17 @@ div.tech img {
 }
 
 .hein input {
+    display: block;
+    height: 2vw;
+    font-size: max(1.4vw,1.4vh);
+    width: 50%;
+    margin-right: 10%;
+    margin-left: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+input[class="hein"] {
     display: block;
     height: 2vw;
     font-size: max(1.4vw,1.4vh);
@@ -390,3 +400,14 @@ cursor: pointer;
 border: 3px solid #2f20a6;
 
 }
+
+footer {
+    margin-top: 5px;
+    display: flex;
+    background-color: #2a2a40;
+    align-items: center;
+    justify-content: left ;
+    color: #d0d0d5;
+    height: 8em;
+    padding-left: 20px;
+  }
