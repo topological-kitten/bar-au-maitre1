@@ -89,7 +89,7 @@ nav {
 
 div.fontimg {
     width: 100vw;
-    height: min(40vh,35vw);
+    height: min(45vh,50vw);
 }
 
 .fontimg img {
@@ -314,7 +314,7 @@ figcaption {
 div.tech img {
     float: left;
     width: 55%;
-    padding: 20px;
+    padding: min(1vh,1vw);
 }
 
 .tech {
