@@ -43,7 +43,6 @@ body {
     display: flex;
     width: 100vw;
     height: max(5vw,5vh);
-    flex-wrap: wrap;
     align-items: center;                     /*vertical alignement for flex*/
     background-color: #11113c;
     color: #fff;
@@ -53,7 +52,7 @@ body {
   }
 
 nav {
-    width: 65%;
+    width: 70vw;
     margin-right: 0;
     margin-left: auto;
   }
@@ -231,7 +230,6 @@ a {
   width: 100%;
   max-width: 32vw;
   height: 32vw;
-  z-index: +2;
 
 }
 
@@ -239,7 +237,6 @@ img.hoverImg {
     width: 100%;
     max-width: 32vw;
     height: 28vw;
-    z-index: +2;
 
 }
 
