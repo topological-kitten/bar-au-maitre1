@@ -217,7 +217,7 @@ div.hoverImg {
 
 .gllrytxtcontainer p {
     color: #0a0a23;
-     font-weight: 800;
+    font-weight: 800;
 }
 
 
@@ -408,6 +408,9 @@ cursor: pointer;
 border: 3px solid #2f20a6;
 
 }
+/* ##################################################################################### */
+/* ######################################  FOOTER ################################## */
+/* ##################################################################################### */
 
 footer {
     margin-top: 1vw;
@@ -419,3 +422,12 @@ footer {
     height: max(12vw,10vh);
     padding-left: 2vw;
   }
+
+address {
+    font-size: max(1.2vw,1.0vh);
+}
+
+address a {
+    color: #fdb347;
+    text-decoration: none;
+}
